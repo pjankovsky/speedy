@@ -24,10 +24,9 @@ services:
       - "3001:3001"
     restart: always
     volumes:
-      - ./docker/speedy/:/home/
+      - ./docker/speedy/.npm/_logs:/home/.npm/_logs
     depends_on:
       - influxdb
-    command: ["npm", "run", "start"]
 
 
 volumes:
