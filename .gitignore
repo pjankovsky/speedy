@@ -3,3 +3,6 @@ node_modules
 .config
 .idea
 .vscode
+
+grafana_data
+influxdb_data
